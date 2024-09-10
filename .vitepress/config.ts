@@ -413,10 +413,6 @@ export default defineConfig({
               link: '/config/why'
             },
             {
-              text: '工作空间',
-              link: '/config/workspace'
-            },
-            {
               text: 'Vitest 配置文件',
               link: '/config/file',
             },
