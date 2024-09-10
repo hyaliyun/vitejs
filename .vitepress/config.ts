@@ -64,6 +64,7 @@ const versionLinks = ((): DefaultTheme.NavItemWithLink[] => {
 })()
 
 export default defineConfig({
+  ignoreDeadLinks: true,
   title: 'Vite',
   description: '下一代前端工具链',
   lang: 'zh-CN',
